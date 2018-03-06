@@ -1,6 +1,6 @@
 (function(wHandle, wjQuery) {
     /*global navigator, Image, $*/
-    var CONNECTION_URL = "127.0.0.1:443"; // Default Connection IP
+    var CONNECTION_URL = "agarserv-test-feedy123.c9users.io/"; // Default Connection IP
     var SKIN_URL = "./skins/"; // Skins Directory
     wHandle.setServer = function(arg) {
         if (arg != gameMode) {
