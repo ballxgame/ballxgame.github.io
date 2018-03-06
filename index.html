@@ -53,11 +53,11 @@
                 </div>
                 <div class="form-group"> <input id="nick" class="form-control" style="margin-bottom: 10px;" placeholder="Nick" maxlength="30" />
                     <select id="gamemode" class="form-control" style="margin-bottom: 10px;" onchange="setServer($(this).val())" required>
-                        <option selected disabled>Select:</option>
-                        <option value="127.0.0.1:443">Solo Server 443</option>
-                        <option value="127.0.0.1:4444">Solo Server 4444</option>
-                        <option value="127.0.0.1:8080">Solo Server 8080</option>
-                        <option value="150.95.135.169:8001">Virus-Off</option>
+                        <option selected disabled>Gamemode:</option>
+                        <option value="agarserv-test-feedy123.c9users.io/">FFA</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value="">Virus-Off</option>
                     </select>
                     <input class="form-control" id="" placeholder="Insert Server IP (Click out of the text box to connect!)" onchange="setServer($(this).val())" />
                 </div>
@@ -78,7 +78,7 @@
                         <label><input type="checkbox" onchange="setCellBorder($(this).is(':checked'));"> Show Cell Border</label>
                         <label><input type="checkbox" onchange="setAcid($(this).is(':checked'));"> Acid Mode</label>
                         <label><input type="checkbox" onchange="setCellPos($(this).is(':checked'));"> Show Map Position</label>
-                        <label><input type="checkbox" onchange="setMapBorders($(this).is(':checked'));"> Show Map Border</label>
+                        <label><input type="checkbox" onchange="setMapBorders($(this).is(':checked'));" checked> Show Map Border</label>
                         <label><input type="checkbox" onchange="setMapSectors($(this).is(':checked'));"> Show Sectors</label>
                         <label><input type="checkbox" onchange="setMapGrid($(this).is(':checked'));" checked> Show Grid</label>
                         <label><input type="checkbox" onchange="setNameShadows($(this).is(':checked'));"> Name Shadows</label>
@@ -116,7 +116,7 @@
 				</td>
                                 <td>
 				    <label>Cell Border Size</label>
-                                    <input class="form-control" id="cellBorderSize" placeholder="Size Value (pixels)" value="5" type="number" style="width:180px;">
+                                    <input class="form-control" id="cellBorderSize" placeholder="Size Value (pixels)" value="7" type="number" style="width:180px;">
 				</td>
                             </tr>
                         </table>
