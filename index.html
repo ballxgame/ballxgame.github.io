@@ -76,7 +76,7 @@
                         <label><input type="checkbox" onchange="setShowMass($(this).is(':checked'));"> Show Mass</label>
                         <label><input type="checkbox" onchange="setSmooth($(this).is(':checked'));" checked> Smooth Render</label>
                         <label><input type="checkbox" onchange="setChatHide($(this).is(':checked'));"> Hide Chat</label>
-                        <label><input type="checkbox" onchange="setCellBorder($(this).is(':checked'));"> Show Cell Border</label>
+                        <label><input type="checkbox" onchange="setCellBorder($(this).is(':checked') == false);"> No Cell Border(Less Lag)</label>
                         <label><input type="checkbox" onchange="setAcid($(this).is(':checked'));"> Acid Mode</label>
                         <label><input type="checkbox" onchange="setCellPos($(this).is(':checked'));"> Show Map Position</label>
                         <label><input type="checkbox" onchange="setMapBorders($(this).is(':checked'));" checked> Show Map Border</label>
